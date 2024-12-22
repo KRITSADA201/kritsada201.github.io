@@ -1,4 +1,4 @@
-p#p1{ 
+/* p#p1{ 
     color: brown;
   }
   p.p2 {
@@ -9,4 +9,56 @@ p#p1{
   }
   p#p3{
     color: deeppink;
+  } */
+
+
+
+  body {
+    background-color: #ffffff;
+    padding: 20px;
+   
+  }
+   header h2 a { 
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  h2 {
+    text-align: center;
+  }
+  form {
+    background-color: #fff7e2;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 35%;
+    margin: 0 auto;
+  }
+  table {
+    width: 100%;
+  }
+
+  input[type="text"] {
+    width: calc(70% - 15px);
+    padding: 4px;
+  }
+  select {
+    width: 35%;
+    padding: 4px;
+  }
+  input[type="submit"] {
+    background-color: #eee7e7;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #000000;
+    display: block;
+    margin: 0 auto;
+
+  }
+  input[type="submit"]:hover {
+    background-color: #e6cf6a;
   }
